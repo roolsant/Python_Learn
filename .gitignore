@@ -1,0 +1,29 @@
+
+# Ignora ambientes virtuais comuns
+.venv/
+venv/
+ENV/
+env/
+
+# Ignora checkpoints e temporários do Jupyter
+**/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Ignora arquivos de cache Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Ignora dados brutos e planilhas (mantendo notebooks)
+**/ArquivosExcel/
+**/ArquivosCSV/
+*.csv
+*.xlsx
+
+# Ignora arquivos temporários e de sistema
+*.log
+*.tmp
+.DS_Store
+
+# Ignora configurações locais do VSCode
+.vscode/
