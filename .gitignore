@@ -14,12 +14,6 @@ __pycache__/
 *.py[cod]
 *.pyc
 
-# Ignora dados brutos e planilhas (mantendo notebooks)
-**/ArquivosExcel/
-**/ArquivosCSV/
-*.csv
-*.xlsx
-
 # Ignora arquivos temporários e de sistema
 *.log
 *.tmp
